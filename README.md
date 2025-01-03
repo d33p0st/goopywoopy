@@ -1,3 +1,5 @@
+[![PyPI Downloads](https://static.pepy.tech/badge/modkit)](https://pepy.tech/projects/modkit)
+
 # Overview
 
 `modkit` is a collection of tools that can be used for better programming
