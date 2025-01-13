@@ -1,8 +1,8 @@
-[![PyPI Downloads](https://static.pepy.tech/badge/modkit)](https://pepy.tech/projects/modkit)
+[![PyPI Downloads](https://static.pepy.tech/badge/goppywoopy)](https://pepy.tech/projects/goopywoopy)
 
 # Overview
 
-`modkit` is a collection of tools that can be used for better programming
+`goopywoopy` is a collection of tools that can be used for better programming
 experience and automation.
 
 ## Features
@@ -17,7 +17,7 @@ experience and automation.
 
     The `@override` decorator was introduced in python3.12+ under the `typing` module. However, for python<3.12, it is not available.
 
-    The `override` class under `modkit` supports python3.8+ and brings
+    The `override` class under `goopywoopy` supports python3.8+ and brings
     additional features rather than just helping in maintaining an error
     free codebase.
 
@@ -41,10 +41,10 @@ experience and automation.
 
     ### Use case
 
-    1. Import the `override` class from `modkit.typing`
+    1. Import the `override` class from `goopywoopy.typing`
 
         ```python
-        from modkit.typing import override
+        from goopywoopy.typing import override
         ```
     2. Define a Base Class.
 
@@ -142,7 +142,7 @@ experience and automation.
         to an attribute, with easy `setter` and `deleter` creation or blocking.
 
         ```python
-        from modkit.classtools import Property
+        from goopywoopy.classtools import Property
 
         class Example:
             def __init__(self, value: int) -> None:
@@ -166,7 +166,7 @@ experience and automation.
         It also supports blocking `setter` or `deleter` or both.
 
         ```python
-        from modkit.classtools import Property
+        from goopywoopy.classtools import Property
 
         class Example2:
             def __init__(self, value: int) -> None:
@@ -192,7 +192,7 @@ experience and automation.
     2. By explicitly defining `getter`, `setter`, and `deleter`.
 
         ```python
-        from modkit.classtools import Property
+        from goopywoopy.classtools import Property
 
         class Example3:
             def __init__(self, value: int) -> None:
@@ -251,7 +251,7 @@ experience and automation.
     1. Import the `Possibility` abstract class.
 
         ```python
-        from modkit.classtools import Possibility
+        from goopywoopy.classtools import Possibility
         ```
     2. Create a new return type, say, `Extra`.
 
@@ -332,4 +332,4 @@ experience and automation.
 
 ## Contributing
 
-Contributions are welcome, create and issue [here](https://github.com/d33p0st/modkit/issues) and create a pull request [here](https://github.com/d33p0st/modkit/pulls).
+Contributions are welcome, create and issue [here](https://github.com/d33p0st/goopywoopy/issues) and create a pull request [here](https://github.com/d33p0st/goopywoopy/pulls).
