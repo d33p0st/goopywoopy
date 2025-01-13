@@ -1,4 +1,4 @@
-from toolcat.tools import Random
+from goopywoopy.tools import Random
 
 class A:
     x = Random([1, 2, 3, 'ab'], Random.BINARY_SPLIT)
