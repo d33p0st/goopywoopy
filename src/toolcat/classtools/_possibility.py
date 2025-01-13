@@ -32,7 +32,6 @@ class Possibility(ABC, Generic[C]):
     
     attribute: Property[str] = Property(
         attribute='_attribute',
-        return_type=str,
         error=PropertyError,
         setter_error_arguments=("Setting 'attribute' property is not permitted.",),
         deleter_error_arguments=("Deleting 'attribute' property is not permitted.",),
